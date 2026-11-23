@@ -1,6 +1,13 @@
 {
-    "name": "dork-agent",
-    "version": "1.0.0",
-    "description": "UCP shopping agent",
-    "capabilities": ["dev.ucp.shopping.cart", "dev.ucp.shopping.checkout"]
+  "name": "dork-agent",
+  "version": "1.0.0",
+  "description": "UCP shopping agent",
+  "ucp": {
+    "version": "2026-08-25",
+    "capabilities": [
+      "dev.ucp.shopping.cart",
+      "dev.ucp.shopping.checkout"
+    ],
+    "transport": "mcp"
   }
+}
